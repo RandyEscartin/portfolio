@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 25px;
+    background: url(img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.container
+{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.container .logo
+{
+    font-size: 50px;
+}
+.container span
+{
+    color: red;
+}
+nav ul
+{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li
+{
+    padding: 10px;
+    list-style: none;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+.material-symbols-outlined
+{
+    margin-right: -15px;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid red;
+
+}
+main 
+{
+    padding-top: 100px;
+    text-align: center;
+}
+main .body h1
+{
+    padding-bottom: 50px;
+    font-size: 100px ;
+}
+main .body h2
+{
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+main .body p
+{
+    font-size: 18px;
+}
